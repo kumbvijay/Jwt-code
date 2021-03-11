@@ -9,7 +9,7 @@ key = file.read()
 
 #Paste your header and payload here
 header = '{"alg":"HS256"}'
-payload = '{"name":"admin"}'
+payload = '{"name":"vijay"}'
 
 #Creating encoded header
 encodedHBytes = base64.urlsafe_b64encode(header.encode("utf-8"))
